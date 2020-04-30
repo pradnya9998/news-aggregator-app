@@ -1,2 +1,52 @@
-@import "./reset.css";
+
+/* #root {
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+body {
+    background-color: rgba(64, 64, 64, 0.438);
+    }
+  
+  .article:hover {
+    opacity: 0.5;
+    transform: scale(1.07); }
+  
+  .article {
+    box-shadow: 2px 5px 10px #c0c0c5;
+     }
+  
+  .text {
+    text-align: center; }
+    .text .input1 {
+      width: 90%;
+      margin: auto;
+      height: 30px;
+     
+      border: 1px solid rgba(64, 64, 64, 0.9);
+      border-top-style: none;
+      border-radius: 5px;
+      padding-left: 15px;
+      color: white;
+      background-image: linear-gradient(rgba(64, 64, 64, 0.9) 1%, rgba(78, 77, 77, 0.7) 99%); }
+      .text .input1:hover {
+        background-color: rgba(184, 181, 204, 0.9);
+         }
+  
+  header .h3news {
+    width: 300px;
+    padding: 10px;
+    border: 2px solid #464545;
+    color: white;
+    font-weight: 500;
+   }
+  
+  ::placeholder {
+    color: white;
+    opacity: 1;
+    
+    font-weight: 600; }
+  
+  
+  
 
