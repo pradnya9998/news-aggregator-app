@@ -14,7 +14,7 @@ export class TopNews{
     }
  }
     
-}//https://newsapi.org/v2/top-headlines?country=us&apiKey=02fbe3d555cf4e3483390b73a7a7bb24
+}
 
 export class Search{
 constructor(query){
